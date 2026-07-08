@@ -3,6 +3,7 @@ title: "American Sign Language Recognition"
 author: "Marina Kotsiopoulou"
 format:
   html:
+    output-file: index.html
     toc: true
     toc-depth: 4
     number-sections: false
