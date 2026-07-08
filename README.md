@@ -11,7 +11,7 @@ The project follows a complete deep learning workflow, including data preprocess
 ---
 
 # Methodology
-The project follows the standard deep learning pipeline:
+The project follows a complete deep learning workflow consisting of the following stages:
 1. Dataset loading and inspection.
 2. Image preprocessing and normalization.
 3. Dataset splitting into training and testing sets.
@@ -34,14 +34,14 @@ The dataset consists of **22,801 RGB images** belonging to **27 American Sign La
 - Image resolution: **128 × 128 pixels**
 - NumPy format (`X.npy`, `Y.npy`)
 
-**Dataset:** [27 Class Sign Language Dataset](https://www.kaggle.com/datasets/ardamavi/27-class-sign-language-dataset)
+**Dataset:** [27 Class Sign Language Dataset (Kaggle)](https://www.kaggle.com/datasets/ardamavi/27-class-sign-language-dataset)
 
 **Reference Paper:** [A New 27 Class Sign Language Dataset Collected from 173 Individuals](https://arxiv.org/abs/2203.03859)
 
 ---
 
 # Sample Results
-The best-performing CNN model achieved the following classification performance:
+The best-performing CNN model achieved the following classification performance on the test dataset:
 | Metric | Value |
 |:-------|------:|
 | Accuracy | **92.57%** |
@@ -73,8 +73,8 @@ The repository also includes:
 - Keras
 - NumPy
 - Pandas
+- - Scikit-learn
 - Matplotlib
-- Scikit-learn
 - Jupyter Notebook
 - Quarto
 
