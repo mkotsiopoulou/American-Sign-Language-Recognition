@@ -8,6 +8,22 @@ The objective of this project is to develop a Convolutional Neural Network capab
 
 ---
 
+# Dataset
+The project uses the **27 Class Sign Language Dataset** developed by Arda Mavi and Zeynep Dikle.
+The dataset contains **22,801 RGB images** of **27 American Sign Language gesture classes**, collected from **173 volunteers** under different lighting conditions, backgrounds and camera angles. Each image has a resolution of **128 × 128 pixels**.
+
+**Dataset:**  [27 Class Sign Language Dataset](https://www.kaggle.com/datasets/ardamavi/sign-language-digits-dataset)
+
+**Related paper:**  [A New 27 Class Sign Language Dataset Collected from 173 Individuals](https://arxiv.org/abs/2203.03859)
+
+**Dataset characteristics**
+- 27 classes
+- 22,801 RGB images
+- Image resolution: **128 × 128 pixels**
+- Alphabet letters (A–Z) and Space
+
+---
+
 # Methodology
 The workflow followed in this project consists of the following stages:
 - Loading and inspecting the dataset.
@@ -50,22 +66,6 @@ The repository also includes:
 - Scikit-learn
 - Quarto
 - Jupyter Notebook
-
----
-
-# Dataset
-The project uses the **27 Class Sign Language Dataset** developed by Arda Mavi and Zeynep Dikle.
-The dataset contains **22,801 RGB images** of **27 American Sign Language gesture classes**, collected from **173 volunteers** under different lighting conditions, backgrounds and camera angles. Each image has a resolution of **128 × 128 pixels**.
-
-**Dataset:**  [27 Class Sign Language Dataset](https://www.kaggle.com/datasets/ardamavi/sign-language-digits-dataset)
-
-**Related paper:**  [A New 27 Class Sign Language Dataset Collected from 173 Individuals](https://arxiv.org/abs/2203.03859)
-
-**Dataset characteristics**
-- 27 classes
-- 22,801 RGB images
-- Image resolution: **128 × 128 pixels**
-- Alphabet letters (A–Z) and Space
 
 ---
 
